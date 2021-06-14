@@ -19,13 +19,13 @@ Xcode에서 사용할 수 있도록 구현된 Framework 모음이다.
     - Heap
         - Heap
         - Prority Queue
-<!-- - File.framework: 파일을 읽거나 쓸 수 있도록 함수 제공 -->
+- FileRW.framework: 텍스트 파일을 읽거나 쓸 수 있도록 함수 제공
 
 
 # 사용
 - macOS Deployment Target: 11.0
 - 사용 방법
-    1. 사용을 원하는 Xcode 프로젝트에 복사한다
+    1. 사용을 원하는 Xcode 프로젝트에 복사
     2. Project → Targets → General → Frameworks and Libraries → Embed 탭에서 Embed & Sign 선택
     3. 사용을 원하는 소스파일에서 import
     4. 프레임워크에서 제공되는 기능 사용
